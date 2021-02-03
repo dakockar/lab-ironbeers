@@ -1,7 +1,105 @@
-/*
-white: #f7f9f9;
+/* white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
-grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+grey: #bfbfbf; */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    color: black;
+}
+
+p {
+    margin: 0.3em 0;
+}
+
+img {
+    height: 150px;
+    align-self: center;
+}
+
+nav {
+    width: 96%;
+    background-color: #2081c3;
+    margin: 0;
+    padding: 1.5em 2%;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.4);
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #f7f9f9;
+    font-weight: 800;
+    margin-right: 2em;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3em;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.box {
+    width: 500px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#tagline {
+    color: #bfbfbf;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-container>div {
+    margin: 3em;
+    text-align: center;
+}
+
+#beer-img {
+    width: 70%;
+    height: auto;
+}
+
+.btn {
+    background-color: #2081c3;
+    padding: 0.8em 1.3em;
+    border-radius: 7px;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+#random-container {
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#random-img {
+    height: auto;
+    width: 80px;
+    margin-top: 2.5em;
+}
+
+footer {
+    width: 96%;
+    background-color: #0a2c42;
+    margin: 0;
+    padding: 1.5em 2%;
+    color: #f7f9f9;
+    font-weight: 800;
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5em;
+}

@@ -1,0 +1,12 @@
+<div class="wrapper">
+    {{#each beersFromApi}}
+
+    <div class="box">
+        <a href="/beers/{{this.id}}">
+            <img src="{{this.image_url}}" alt="">
+            <h2>{{this.name}}</h2>
+        </a>
+    </div>
+
+    {{/each}}
+</div>
